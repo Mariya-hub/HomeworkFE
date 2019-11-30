@@ -1,0 +1,42 @@
+body {
+	width: 210mm;
+	margin-left: 500px;
+	text-align: center;
+	font-family: "Times New Roman", Times, serif; 
+	font-size: 14pt;
+	font-weight: 400;
+	border: 1px solid;
+	padding: 20px;
+	background-color: #fff;
+}
+#bgu {
+	font-weight: 700;
+	line-height: 0.6;
+}
+#ref {
+	margin-top: 280px;
+	line-height: 0.8;
+}
+p#tema {
+	 font-weight: 600;
+}
+#inf {
+	margin-top: 140px;
+	margin-left: 357px;
+	text-align: left;
+	line-height: 0;
+}
+span {
+	border-bottom: 1px solid;
+	display: inline-block;
+	padding-bottom: 8px;
+}
+
+/*span {
+	text-decoration: underline;
+	line-height: 0.3;
+}*/
+
+#minsk {
+	margin-top: 200px;
+}
