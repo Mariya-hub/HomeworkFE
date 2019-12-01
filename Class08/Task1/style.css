@@ -1,6 +1,10 @@
 body {
-	width: 210mm;
-	margin-left: 500px;
+	width: 790px;
+	height: 1120px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#alltext {
 	text-align: center;
 	font-family: "Times New Roman", Times, serif; 
 	font-size: 14pt;
@@ -10,18 +14,19 @@ body {
 	background-color: #fff;
 }
 #bgu {
+
 	font-weight: 700;
 	line-height: 0.6;
 }
 #ref {
-	margin-top: 280px;
+	margin-top: 350px;
 	line-height: 0.8;
 }
 p#tema {
-	 font-weight: 600;
+	font-weight: 600;
 }
 #inf {
-	margin-top: 140px;
+	margin-top: 200px;
 	margin-left: 357px;
 	text-align: left;
 	line-height: 0;
@@ -35,8 +40,8 @@ span {
 /*span {
 	text-decoration: underline;
 	line-height: 0.3;
-}*/
+	}*/
 
-#minsk {
-	margin-top: 200px;
-}
+	#minsk {
+		margin-top: 300px;
+	}
