@@ -13,3 +13,6 @@
 
 ## Титульный лист реферата
 ### Выполнено [пятое задание](https://github.com/Mariya-hub/HomeworkFE/blob/master/Class08/Task1/index.html)
+
+## В титульный лист добавлен индикатор загрузки и модальное окно
+### Выполнено [шестое задание](https://github.com/Mariya-hub/MariyaU-Hw-FE/blob/master/Class09/index.html)
