@@ -4,17 +4,12 @@
 	<meta charset="UTF-8">
 	<title>Форма заказа в интернет-магазине</title>
 	<link rel="stylesheet" href="style.css">
-	<script>
-		  function agreeForm(f) {
-    if (f.agree.checked) f.submit.disabled = 0;
-    else f.submit.disabled = 1;
-   }
-  	</script>
 </head>
 <body>
 	<header>
-		Кто мы - интернет магазин Elmarket.by
 		<img src="https://www.elmarket.by/public/images/temp/logo-b.png" alt="logo" id="logo">
+		<p>Кто мы - интернет магазин Elmarket.by</p>
+		
 	</header>
 
 	<nav>
@@ -58,13 +53,13 @@
 		<form>
 			<h4>Форма отправки заказа</h4>
 			<p><label>Фамилия:</label>
-				<input type="text">
+				<input type="text" required="">
 			</p>
 			<p><label>Имя:</label>
-				<input type="text">
+				<input type="text" required="">
 			</p>
 			<p><label>Email:</label>
-				<input type="Email">
+				<input type="Email" required="">
 			</p>
 			<p>Выберите способ доставки:</p>
 			<p>
@@ -74,16 +69,17 @@
 				</p>
 
 				<div>
-					<p class="input1"><input type="radio" name="1">
-					<label>Курьером по Минску</label> </p><br>
-					<label id="input2">Адрес доставки<input type="text"></label>
-					
+					<input type="radio" name="1" id="btn">
+					Курьером по Минску<br>
+					<p class="adress">Адрес доставки: <input type="text"></p>
+
 				</div>
-				
+				<br>
+
 				<textarea  cols="30" rows="10" placeholder="Комментарий к заказу"></textarea> <br><br>
 
-				<input type="checkbox" name="agree" onclick="agreeForm(this.form)">Я прочитал и согласен с условиями доставки <br><br>
-				<input type="submit" name="submit" value="Подтвердить заказ" id="btn" disabled>
+				<input type="checkbox" name="agree" id="read">Я прочитал и согласен с условиями доставки <br><br>
+				<input type="submit" name="submit" value="Подтвердить заказ" class="zakaz" disabled="">
 			</form>
 		</section>
 		<footer>
@@ -93,14 +89,7 @@
 				Адрес: г.Минск, ул.Каменногорская, 14 <br>
 				Телефоны: (044) 5-318-318, (017) 336-45-45 <br>
 				Skype: <a href="skype:www.elmarket.by">www.elmarket.by</a>
-
-
-
 			</p>
-
-
-
 		</footer>
-
 	</body>
 	</html>
