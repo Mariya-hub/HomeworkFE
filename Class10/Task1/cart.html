@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Форма заказа в интернет-магазине</title>
+	<link rel="stylesheet" href="style.css">
+	<script>
+		  function agreeForm(f) {
+    if (f.agree.checked) f.submit.disabled = 0;
+    else f.submit.disabled = 1;
+   }
+  	</script>
+</head>
+<body>
+	<header>
+		Кто мы - интернет магазин Elmarket.by
+		<img src="https://www.elmarket.by/public/images/temp/logo-b.png" alt="logo" id="logo">
+	</header>
+
+	<nav>
+		<ul>
+			<li><a href="">Бытовая техника</a>
+				<ul>
+					<li><a href="#">Стиральные машины</a></li>
+					<li><a href="#">Стиральные машины</a></li>
+					<li><a href="#">Пылесосы</a></li>
+					<li><a href="#">Швейные, вышивальные машины</a></li>
+					<li><a href="#">Утюги</a></li>
+					<li><a href="#">Электровеники</a></li>
+					<li><a href="#">Сушилки для обуви</a></li>
+				</ul>
+			</li>
+			<li><a href="">Техника для кухни</a>
+				<ul>
+					<li><a href="#">Холодильники</a></li>
+					<li><a href="#">Кухонные плиты</a></li>
+					<li><a href="#">Морозильники</a></li>
+					<li><a href="#">Настольные плиты</a></li>
+					<li><a href="#">Ростеры, мини-печи</a></li>
+					<li><a href="#">Вытяжки</a></li>
+					<li><a href="#">Микроволновые печи</a></li>
+				</ul>
+			</li>
+			<li><a href="">Компьютерная техника</a>
+				<ul>
+					<li><a href="#">Ноутбуки</a></li>
+					<li><a href="#">Планшеты</a></li>
+					<li><a href="#">Компьютеры, моноблоки</a></li>
+					<li><a href="#">Игровые приставки</a></li>
+					<li><a href="#">Серверное оборудование</a></li>
+				</ul>
+			</li>
+			<li><a href="">Корзина</a></li>
+		</ul>	
+	</nav>
+
+	<section>
+		<form>
+			<h4>Форма отправки заказа</h4>
+			<p><label>Фамилия:</label>
+				<input type="text">
+			</p>
+			<p><label>Имя:</label>
+				<input type="text">
+			</p>
+			<p><label>Email:</label>
+				<input type="Email">
+			</p>
+			<p>Выберите способ доставки:</p>
+			<p>
+
+				<input type="radio" name="1">Самовывоз со склада по <a href="#">адресу
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2350.1246989685155!2d27.41445031581962!3d53.91175998010141!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbdb33e312f28d%3A0xa7868bf5d077aec7!2z0JrQsNC80LXQvdC90L7Qs9C-0YDRgdC60LDRjywgMTQ!5e0!3m2!1sru!2sby!4v1575719790105!5m2!1sru!2sby" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe></a>
+				</p>
+
+				<div>
+					<p class="input1"><input type="radio" name="1">
+					<label>Курьером по Минску</label> </p><br>
+					<label id="input2">Адрес доставки<input type="text"></label>
+					
+				</div>
+				
+				<textarea  cols="30" rows="10" placeholder="Комментарий к заказу"></textarea> <br><br>
+
+				<input type="checkbox" name="agree" onclick="agreeForm(this.form)">Я прочитал и согласен с условиями доставки <br><br>
+				<input type="submit" name="submit" value="Подтвердить заказ" id="btn" disabled>
+			</form>
+		</section>
+		<footer>
+			<p>Прием заказов по телефону: <br>
+				с 9:00 до 18:00 <br>
+				выходные: суббота, воскресенье. <br>
+				Адрес: г.Минск, ул.Каменногорская, 14 <br>
+				Телефоны: (044) 5-318-318, (017) 336-45-45 <br>
+				Skype: <a href="skype:www.elmarket.by">www.elmarket.by</a>
+
+
+
+			</p>
+
+
+
+		</footer>
+
+	</body>
+	</html>
