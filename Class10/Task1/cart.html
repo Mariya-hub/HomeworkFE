@@ -64,22 +64,28 @@
 			<p>Выберите способ доставки:</p>
 			<p>
 
-				<input type="radio" name="1">Самовывоз со склада по <a href="#">адресу
+				<input type="radio" name="1" value="1">Самовывоз со склада по <a href="#">адресу
 					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2350.1246989685155!2d27.41445031581962!3d53.91175998010141!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbdb33e312f28d%3A0xa7868bf5d077aec7!2z0JrQsNC80LXQvdC90L7Qs9C-0YDRgdC60LDRjywgMTQ!5e0!3m2!1sru!2sby!4v1575719790105!5m2!1sru!2sby" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe></a>
 				</p>
 
-				<div>
-					<input type="radio" name="1" id="btn">
-					Курьером по Минску<br>
-					<p class="adress">Адрес доставки: <input type="text"></p>
-
-				</div>
+				
+					<label for="input1">
+						<input type="radio" id="input1" name="1" value="2">
+					Курьером по Минску
+					<div class="adress"> Адрес доставки: <input type="text">
+					</div>
+					</label>
+				
 				<br>
 
 				<textarea  cols="30" rows="10" placeholder="Комментарий к заказу"></textarea> <br><br>
 
-				<input type="checkbox" name="agree" id="read">Я прочитал и согласен с условиями доставки <br><br>
-				<input type="submit" name="submit" value="Подтвердить заказ" class="zakaz" disabled="">
+				<label for="read">
+					<input type="checkbox" name="agree" id="read">
+					Я прочитал и согласен с условиями доставки 
+				<div class="button"><input type="submit" name="submit" value="Подтвердить заказ" disabled>
+				</div>
+			</label>
 			</form>
 		</section>
 		<footer>

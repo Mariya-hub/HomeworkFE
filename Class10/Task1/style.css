@@ -90,15 +90,13 @@ p a:focus iframe {
 	left: 230px;
 }
 
-.adress {
+div.adress {
 	display: none;
 }
-#btn:checked ~ .adress {
+input[name="1"]:checked + div.adress {
 	display: block;
 }
-.zakaz:disabled {
-	background-color: #D3CDCD;
-}
-#read:checked ~ .zakaz:enabled {
-	background-color: #DEDEDE;
+
+input[name="agree"]:checked + div.button input {
+	color: black;
 }
