@@ -19,3 +19,6 @@
 
 ## Форма заказа в интернет-магазине
 ### Выполнено [первое задание Class10](https://github.com/Mariya-hub/MariyaU-Hw-FE/blob/master/Class10/Task1/cart.html)
+
+## Пляж, лайк, чекбокс, header магазина 
+### Выполнены [4 задания Class12](https://github.com/Mariya-hub/MariyaU-Hw-FE/tree/master/Class12)
