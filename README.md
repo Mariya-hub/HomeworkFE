@@ -16,3 +16,6 @@
 
 ## В титульный лист добавлен индикатор загрузки и модальное окно
 ### Выполнено [шестое задание](https://github.com/Mariya-hub/MariyaU-Hw-FE/blob/master/Class09/index.html)
+
+## Форма заказа в интернет-магазине
+### Выполнено [первое задание Class10] (https://github.com/Mariya-hub/MariyaU-Hw-FE/blob/master/Class10/Task1/cart.html)
