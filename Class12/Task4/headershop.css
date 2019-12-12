@@ -1,0 +1,14 @@
+.header {
+	float: left;
+	margin-left: 150px;
+}	
+textarea {
+	margin-top: 25px;
+}
+nav ul li {
+	display: inline-block;
+	background: #FCE7D3;
+	size: 24px;
+	border: 1px solid;
+	padding: 5px;
+}

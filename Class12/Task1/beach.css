@@ -1,0 +1,41 @@
+/*div.background__image {
+	width: 100%;
+	height: 700px;
+	border: 1px solid;
+	background: url("sky.jpg") center bottom no-repeat; 
+	z-index: -1;
+	position: relative;
+}
+div.background__image1 {
+background: url("sea.png") center bottom;
+background-repeat: no-repeat;
+position: absolute;
+
+}*/
+/*div {
+	position: relative;
+	width: 100%;
+	height: 700px;
+	border: 1px solid;
+
+}
+.sky {
+	background-image: url("sky.jpg");
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+.sea {
+	background-image: url("sea.png");
+	background-repeat: no-repeat;
+	background-position: 50% 0%; 
+}*/
+div {
+width: 100%;
+height: 1000px;
+position: absolute;
+background-image:  url("sun.png"), url("sea.png"), url("sky.jpg");
+background-repeat: no-repeat;
+background-position: 60% 30%, 50% 70%, center center;
+background-size: 100px 100px, 500px 200px,500px 500px;
+
+}

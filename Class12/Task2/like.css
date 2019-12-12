@@ -1,0 +1,23 @@
+a input {
+	width: 40px;
+	height: 40px;
+	margin-left: 50%;
+	margin-top: 200px;
+	
+}
+
+a input:link {
+	color: red;
+}
+
+a input:hover {
+	color: #0059FF;
+}
+
+a input:active {
+	color: red;
+}
+
+a input:visited + a input:hover {
+	color: 0,100%,50%, 30%;
+}

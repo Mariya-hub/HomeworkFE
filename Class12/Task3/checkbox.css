@@ -1,0 +1,39 @@
+#checkbox{
+    display: none;
+}
+#checkbox + label{
+    display: block;
+}
+#checkbox + label:before{
+    content: url(https://img.icons8.com/carbon-copy/2x/unchecked-checkbox.png);
+}
+
+#checkbox:checked + label:before{
+    content: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgIQvIF31yET2x74JZwEOrdoidup8CznKaMrsRARBHQwgX4MPe&s);
+}
+
+#checkbox2 {
+    display: none;
+}
+#checkbox2 + label{
+    display: block;
+}
+#checkbox2 + label:before{
+    content: url(https://img.icons8.com/carbon-copy/2x/unchecked-checkbox.png);
+}
+#checkbox2:checked + label:before{
+    content: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgIQvIF31yET2x74JZwEOrdoidup8CznKaMrsRARBHQwgX4MPe&s);
+}
+
+#checkbox3 {
+    display: none;
+}
+#checkbox3 + label{
+    display: block;
+}
+#checkbox3 + label:before{
+    content: url(https://img.icons8.com/carbon-copy/2x/unchecked-checkbox.png);
+}
+#checkbox3:checked + label:before{
+    content: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgIQvIF31yET2x74JZwEOrdoidup8CznKaMrsRARBHQwgX4MPe&sg);
+}
