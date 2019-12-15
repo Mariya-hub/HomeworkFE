@@ -1,23 +1,47 @@
-a input {
-	width: 40px;
-	height: 40px;
-	margin-left: 50%;
-	margin-top: 200px;
+#checkbox{
+    display: none;
+}
+#checkbox + label{
+    display: block;
+}
+#checkbox + label:before{
+    content: url(heart1.png);
+}
+
+#checkbox:visited + label:before{
+    content: url(heart4.png);
+}
+#checkbox:hover + label:before{
+    content: url(heart2.png);
+}
+#checkbox:active + label:before{
+    content: url(heart3.png);
+}
+
+
+/*div {
+	position: relative;
+	width: 230px;
+	height: auto;
+	margin-left: 40%;
+	margin-top: 40px;
+}
+div.heart2, div.heart3, div.heart4 {
+	display: none;
 	
 }
 
-a input:link {
-	color: red;
+div.heart1:hover + div.heart2 {
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 2px;
 }
 
-a input:hover {
-	color: #0059FF;
+div.heart2:active + div.heart3 {
+	display: block;
+	margin-top: -200px;
 }
-
-a input:active {
-	color: red;
-}
-
-a input:visited + a input:hover {
-	color: 0,100%,50%, 30%;
-}
+div.heart2:focus + div.heart4 {
+	display: block;
+}*/

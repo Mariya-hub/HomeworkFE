@@ -1,0 +1,22 @@
+a input {
+	width: 40px;
+	height: 40px;
+	margin-left: 50%;
+	margin-top: 200px;
+	
+}
+
+a input:link {
+	color: red;
+}
+a input:visited + input {
+	color: green;
+}
+a input:hover {
+	color: #0059FF;
+}
+
+a input:active {
+	color: red;
+}
+

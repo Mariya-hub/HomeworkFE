@@ -67,9 +67,22 @@ nav ul ul li {
 }
 li > a:after {content: ' ‣';}
 li > a:only-child:after { content: ''; }
+
+
+label span {
+	font-weight: 800;
+	border-bottom: 1px solid;
+
+}
 iframe {
 	display: none;
-	position: relative;
+}
+#checkbox{
+    display: none;
+}
+#checkbox:checked + label + iframe {
+	content: '';
+    display: block;
 }
 
 form {
@@ -97,6 +110,13 @@ input[name="1"]:checked + div.adress {
 	display: block;
 }
 
-input[name="agree"]:checked + div.button input {
-	color: black;
+
+input#btn2 {
+	display: none;
+}
+input#read:checked + input#btn1 {
+	display: none;
+}
+input#read:checked + input#btn1 + input#btn2 {
+	display: block;
 }
