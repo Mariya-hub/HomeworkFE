@@ -1,0 +1,38 @@
+@media (max-width: 600px){
+  body {
+    background-color: #B0F9BA;
+  }
+}
+img {
+  width: 100px;
+  cursor: pointer;
+}
+.tiles-promo {
+    display: flex;
+    flex-flow: column wrap;
+    height: 400px;
+}
+
+.tile {
+    box-sizing: border-box;
+    flex: 100%;
+    width: 25%;
+    padding: 2em;
+    color: #fff;
+    text-align: center;
+}
+
+.tile_small {
+    flex: 50%;
+}
+.tiles-promo {
+  display: none;
+}
+#checkbox{
+    display: none;
+}
+
+#checkbox:checked + label + .tiles-promo {
+  content: '';
+  display: flex;
+}

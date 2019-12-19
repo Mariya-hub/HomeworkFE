@@ -1,0 +1,118 @@
+body {
+	background-image: url(https://static.tildacdn.com/tild6535-3035-4530-b630-383061373964/kct-2019.jpg);
+	background-repeat: no-repeat;
+	background-color: rgba(0,0,0,.7);
+    background-blend-mode: darken;
+	height: 100vh;
+	background-size: cover;
+	color: white;
+	font-family: Arial;
+
+}
+.tel a {
+	text-decoration: none;
+	color: #fff;
+	margin-left: -300px;
+}
+div.soc img {
+	margin-right: 20px;
+}
+.toprow {
+	display: inline-flex;
+	font-weight: 800;
+	width: 100%;
+	justify-content: flex-end;
+	margin-top: 30px;
+}
+.logo {
+	float: left;
+	margin-right: 600px;
+	margin-top: -10px;
+}
+.contacts {
+	flex-basis: 900px;
+}
+.tel {
+	justify-content: flex-end;
+	color: #fff;
+}
+.contacts a {
+	text-decoration: none;
+	color: white;
+}
+.row3 {
+	display: flex;
+	padding-top: 150px;
+	justify-content: center;
+	align-items: center;
+	font-size: 50px;
+	font-weight: bolder;
+}
+.row4 {
+	display: flex;
+	padding-top: 20px;
+	justify-content: center;
+	align-items: center;
+	font-size: 30px;
+	font-style: italic;
+	font-family: Sylfaen;
+}
+
+.row5 {
+	display: flex;
+	justify-content: center;
+	padding-top: 200px;
+
+}
+.row5 div {
+	margin-left: 15em;
+	font-weight: 900px;
+}
+div.row51:before {
+	content: url(img1.png);
+	display: inline;
+	float: left;
+	margin-left: -60px;
+	margin-top: -10px;
+	width: 40px;
+	
+}
+div.row52:before {
+	content: url(img2.png);
+	display: inline;
+	float: left;
+	margin-left: -60px;
+	margin-top: -10px;
+}
+div.row53:before {
+	content: url(img3.png);
+	display: inline;
+	float: left;
+	margin-left: -60px;
+	margin-top: -10px;
+}
+.row6 {
+	display: flex;
+	padding-top: 200px;
+	justify-content: center;
+	align-items: center;
+}
+
+.btn {
+	display: flex;
+	padding-top: 10px;
+	justify-content: center;
+	align-items: center;
+}
+button {
+	background-color: red;
+	margin-top: -5px;
+	height: 50px;
+	width: 300px;
+	font-weight: bolder;
+	color: #fff;
+	border: none;
+	border-radius: 10px;
+	font-size: 15px;
+		cursor: pointer;
+}
