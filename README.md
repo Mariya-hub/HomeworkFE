@@ -22,3 +22,14 @@
 
 ## Пляж, лайк, чекбокс, header магазина 
 ### Выполнены [4 задания Class12](https://github.com/Mariya-hub/MariyaU-Hw-FE/tree/master/Class12)
+
+## [Меню "бургер"](https://github.com/Mariya-hub/MariyaU-Hw-FE/blob/master/Class13/menu.html) 
+## [Flexbox](https://github.com/Mariya-hub/MariyaU-Hw-FE/blob/master/Class13/flexbox.html)
+
+## Header для лэндинга курсов подготовки к ЦТ от Адукар 
+### Выполнено [первое задание Class13](https://github.com/Mariya-hub/MariyaU-Hw-FE/blob/master/Class13/Task1/adukar.html)
+## Макет для страницы новостей ВКонтакте
+### Выполнено [второе задание Class13](https://github.com/Mariya-hub/MariyaU-Hw-FE/blob/master/Class13/Task2/vk.html)
+
+
+
