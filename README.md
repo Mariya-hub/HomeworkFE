@@ -31,5 +31,16 @@
 ## Макет для страницы новостей ВКонтакте
 ### Выполнено [второе задание Class13](https://github.com/Mariya-hub/MariyaU-Hw-FE/blob/master/Class13/Task2/vk.html)
 
+## Прыгающий мяч 
+### Выполнено [первое задание Class14](https://github.com/Mariya-hub/MariyaU-Hw-FE/blob/master/Class14/Task1/ball.html)
+
+
+## Вентилятор 
+### Выполнено [второе задание Class14](https://github.com/Mariya-hub/MariyaU-Hw-FE/blob/master/Class14/Task2/blower.html)
+
+## Спрайты (ниндзя)
+### Выполнено [третье задание Class14](https://github.com/Mariya-hub/MariyaU-Hw-FE/blob/master/Class14/Task3/ninja.html)
+
+
 
 
