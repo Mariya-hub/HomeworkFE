@@ -1,0 +1,13 @@
+img {
+	width: 300px;
+	height: 300px;
+}
+.blower {
+	transform: rotateZ(1080deg);
+	transition-duration: 3s;
+	transition-timing-function: ease-out;
+}
+.blower:hover {
+	transform: rotateZ(-0deg);
+	transition-timing-function: ease-out;
+}
