@@ -1,0 +1,146 @@
+.card {
+	display: flex;
+	flex-direction: column;
+}
+.card-attributes {
+	display: flex;
+}
+.card-image {
+	padding: 10px;
+}
+.tegs {
+	display: flex;
+	justify-content: space-around;
+}
+.award-item {
+	width:150px;
+	height:150px;
+	background-image: url(https://image.shutterstock.com/image-illustration/award-ribbon-gold-icon-number-260nw-1498595177.jpg);
+	background-size: cover;
+}
+
+.opa-0 {
+	opacity: 0;
+}
+.tags-and-awards {
+	display: flex;
+	flex-direction: column;
+}
+.awards {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.card-description {
+	display: flex;
+}
+.main-description {
+	display: flex;
+	flex-direction: column;
+}
+.text-description {
+	width: 900px;
+}
+.map-and-form {
+	display: flex;
+}
+.form form label  {
+	display: flex;
+	flex-direction: column;
+	margin-top: 60px;
+	margin-left: 20px;
+}
+.buttons {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 200px;
+
+}
+.buttons div {
+	padding-top: 20px;
+}
+button {
+	width: 150px;
+	height: 50px;
+}
+.buttons-yes-no {
+	display: flex;
+}
+.buttons-yes-no > .button button {
+	width: 75px;
+}
+
+@media only screen and (max-width : 480px) {
+	.card {
+		flex-direction: column;
+	}
+	.card-attributes {
+		/*display: flex;
+		flex-direction: column;
+		background-color: red;*/
+		display: none;
+	}
+	.awards {
+		display: none;
+		background-color: red;
+	}
+}
+
+@media (max-width: 768px) {
+	.tegs {
+		flex-direction: column;
+		height: 200px;
+		align-items: center;
+	}
+	.tag-item {
+		justify-content: space-between;
+		border: 1px solid;
+		width: 200px;
+		text-align: center;
+	}
+	.tags-and-awards {
+		flex-direction: column;
+	}
+/*	.card-attributes {
+		flex-direction: column;
+	}*/
+	.awards {
+		flex-wrap: wrap;
+		border: 1px solid;
+		justify-content: space-between;
+
+	}
+	.card-description {
+		flex-direction: column;
+	}
+	.buttons {
+		order: -1;
+		flex-direction: row;
+		display: flex;
+	}
+	.button button {
+		width: 230px;
+	}
+	.buttons div:nth-child(3) {
+		flex-wrap: wrap;
+		align-self: flex-end;
+		order: -2;
+	}
+	.buttons-yes-no {
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-self: flex-end;
+		order: -2;
+	}
+	.map-and-form {
+		flex-direction: column;
+	}
+	.form {
+		display: flex;
+		flex-direction: row;
+		width: 100px;
+		margin-left: 5px;
+	}
+}
