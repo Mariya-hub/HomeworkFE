@@ -29,8 +29,10 @@
 .awards {
 	display: flex;
 	flex-wrap: wrap;
+	flex-direction: row;
+	width: 100%;
 	margin-top: 20px;
-	margin-left: 20px;
+	/* margin-left: 20px; */
 }
 .card-description {
 	display: flex;
@@ -54,8 +56,10 @@
 .buttons {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
-	padding-left: 200px;
+	justify-content: space-around;
+	width: 100%;
+	padding-top: 5px;
+    align-items: center;
 
 }
 .buttons div {
@@ -107,10 +111,11 @@ button {
 		flex-direction: column;
 	}*/
 	.awards {
+		display: flex;
 		flex-wrap: wrap;
+		flex-direction: row;
 		border: 1px solid;
-		justify-content: space-between;
-
+		width: 100%;
 	}
 	.card-description {
 		flex-direction: column;

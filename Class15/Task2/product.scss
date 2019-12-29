@@ -1,0 +1,11 @@
+$bgc: red;
+body {
+    display: flex;
+    flex-direction: column;
+    
+    header {
+        justify-content: center;
+        text-align: center;
+
+    }
+}
