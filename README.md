@@ -41,6 +41,12 @@
 ## Спрайты (ниндзя)
 ### Выполнено [третье задание Class14](https://github.com/Mariya-hub/MariyaU-Hw-FE/blob/master/Class14/Task3/ninja.html)
 
+## SCSS
+### Выполнено [первое задание Class15](https://github.com/Mariya-hub/MariyaU-Hw-FE/tree/master/Class15/Task1)
+
+## Bootstrap
+### Выполнено [первое задание Class16](https://github.com/Mariya-hub/MariyaU-Hw-FE/blob/master/Class16/Task1/cart.html)
+
 
 
 
