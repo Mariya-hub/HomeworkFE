@@ -1,0 +1,78 @@
+body {
+	 background-image: linear-gradient(to top, #fff, rgb(255, 221, 169), rgb(255, 208, 138));
+	 height: 100vh;
+}
+header {
+	border: 2px solid;
+	padding: 5px;
+	overflow: auto;
+	font-size: 28px;
+	font-weight: 800;
+	display: flex;
+	justify-content: space-around;
+}
+#logo {
+	display: inline-block;
+	float: right;
+}
+.menu {
+	display: flex;
+}
+.btn, btn-secondary, dropdown-toggle {
+	background-color: rgb(240, 123, 60);
+}
+
+label span {
+	font-weight: 800;
+	border-bottom: 1px solid;
+
+}
+iframe {
+	display: none;
+}
+#checkbox{
+    display: none;
+}
+#checkbox:checked + label + iframe {
+	content: '';
+    display: block;
+}
+
+form {
+	border: 15px groove rgb(226, 136, 0);
+	width: 500px;
+	padding: 0 15px 15px 15px;
+	margin-left: 35%;
+	margin-top: 20px;
+}
+h4 {
+	text-align: center;
+	font-size: 20px;
+
+}
+p a:focus iframe {
+	display: block;
+	position: absolute;
+	left: 230px;
+}
+
+div.adress {
+	display: none;
+}
+input[name="1"]:checked + div.adress {
+	display: block;
+}
+
+
+input#btn2 {
+	display: none;
+}
+input#read:checked + input#btn1 {
+	display: none;
+}
+input#read:checked + input#btn1 + input#btn2 {
+	display: block;
+}
+footer {
+	margin-top: 40px;
+}
