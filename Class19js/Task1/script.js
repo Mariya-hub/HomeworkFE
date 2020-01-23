@@ -91,7 +91,7 @@ else {
 
     function add5()
     {
-    let c;
+    let c = 0;
 
     for (let i=1;i<=50;i++)
     {
@@ -106,19 +106,16 @@ else {
     function add6()
     {
 
-    let proshloe = 0;
-    let next = 1;
+    let proshloe = 0;  //1-ое число
+    let next = 1;  //2-ое число
 
 
   for (let i=0;i<=15;i++)
-  {let save = next;
+  {let save = next;   //сохраняем 2-ое число, чтобы заменить первое на второе
   
-    console.log(proshloe);
-      next = proshloe + next;
-      proshloe = save;
-
-
-
+    console.log(proshloe); //выводим первое число
+      next = proshloe + next; //получаем 3-е число
+      proshloe = save;  //заменяем первое число на второе
   }
 
     }

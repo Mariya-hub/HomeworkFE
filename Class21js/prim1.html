@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Создайте функцию, которая принимает три числа: два первых должны быть длиной 
+    сторон катетов прямоугольного треугольника, а третье – длиной гипотенузы. 
+    Функция возвращает true, если такой прямоугольный треугольник возможен, и false, если нет. -->
+
+    <input type="submit" onclick="fun1();">
+    <script>
+        function fun1() {
+            let a = 3;
+            let b = 4;
+            let g = 5;
+            
+            if (g*g == a*a + b*b) {
+                console.log('true');
+            }
+            else {
+                console.log('false');
+            }
+        }
+    </script>
+</body>
+</html>

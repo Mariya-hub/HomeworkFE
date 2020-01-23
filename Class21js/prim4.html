@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Создайте функцию, которая получает в качестве аргумента оценку по 10-балльной шкале. 
+    Для ошибочных аргументов (0, «B») функция возвращает текстовую ошибку, для верных – их текстовое описание:https://en.wikipedia.org/wiki/Academic_grading_in_Belarus   -->
+    <input type="submit" onclick="fun4();">
+    <script>
+         function fun4()
+    {
+        let a = 10;
+        switch (a) {
+            case 1:
+                console.log('Lavel - Low, Label - Unsatisfactory, US equivalent - F');
+                break;
+            case 2:
+                console.log('Lavel - Low, Label - Unsatisfactory, US equivalent - F');
+                break;
+            case 3:
+                console.log('Lavel - Satisfactory, Label - Satisfactory, US equivalent - C');
+                break;
+            case 4:
+                console.log('Lavel - Satisfactory, Label - Satisfactory, US equivalent - C+');
+                break;
+            case 5:
+                console.log('Lavel - Average, Label - Almost good, US equivalent - 	B-');
+                break;
+            case 6:
+                console.log('Lavel - Average, Label - Good, US equivalent - B');
+                break;
+            case 7:
+                console.log('Lavel - Good, Label - Very good, US equivalent - B+');
+                break;
+            case 8:
+                console.log('Lavel - Good, Label - Almost excellent, US equivalent - A-');
+                break;
+            case 9:
+                console.log('Lavel - High, Label - Excellent, US equivalent - A');
+                break;
+            case 10:
+                console.log('Lavel - High, Label - 	Brilliant, US equivalent - A+');
+                break;
+            default:
+                console.log("Ошибка");
+        }
+
+    }
+    </script>
+</body>
+</html>

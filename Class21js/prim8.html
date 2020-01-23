@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Создайте функцию, которая принимает в качестве аргумента целое число, соответствующее 
+        порядковому номеру месяца. Если месяц с таким номером существует, функция возвращает имя 
+        сезона (лето, осень, зима, весна), к которому относится месяц. Если нет –сообщение об ошибке. -->
+
+    <input type="submit" onclick="fun8();">
+    <script>
+        function fun8() {
+            let a = 6;
+            if (Number.isInteger(a)==false || a<0 || a>12) {
+                console.log("Ошибка");
+            }
+            else if (a >=9  && a <= 11) {
+                console.log("Осень");
+            } 
+            else if (a == 12  || a <= 2) {
+                console.log("Зима");
+            } 
+            else if (a >=3  && a <= 5) {
+                console.log("Весна");
+            } 
+            else if (a >=6  && a <= 8) {
+                console.log("Лето");
+            } 
+        }
+    </script>
+</body>
+</html>

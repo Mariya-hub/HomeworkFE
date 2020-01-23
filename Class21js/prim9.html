@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Создайте функцию, которая выводит в консоль числа от 10 до 99, заканчивающиеся на 7 или делящиеся на 7 (в убывающем порядке). -->
+
+    <input type="submit" onclick="fun9();">
+    <script>
+        function fun9() {
+           let b = 7;
+            for(let i=10; i <= 99; i++) {
+                if (i%10==b || i%7==0) {
+                    console.log(i); 
+                }  
+            }
+        }
+    </script>
+</body>
+</html>

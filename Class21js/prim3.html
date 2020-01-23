@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Создайте функцию, которая принимает два аргумента – количество учеников в классе и количество парт в кабинете. 
+    Функция возвращает строку вида «не хватает 2 парт» / «1 лишняя парта». -->
+
+    <input type="submit" onclick="fun3();">
+    <script>
+            function fun3 () {
+                let s = 5;
+                let p = 10;
+                let sum = s-p;
+                if (sum < 0) {
+                
+                    console.log(Math.abs(sum) + " лишняя парта");
+                } 
+                else if (sum > 0) {
+                    console.log("не хватает" + " " + sum + " " + "парт");
+                }
+            }
+    </script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Функция, которая принимает числа, пока их сумма остаётся меньше 100, выводит эту сумму в консоль, а возвращает количество введённых чисел. -->
+
+    <input type="submit" onclick="fun5();">
+    <script>
+        function fun5() {
+            let a;
+            let sum = 0;
+            let i = 0;
+             do {
+                a = prompt("введите число");
+                sum = sum + a;
+                i++;
+             }
+             while (sum < 100);    
+             console.log(i);
+        }
+    </script>
+</body>
+</html>
