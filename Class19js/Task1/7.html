@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+   function createChess(x, y) {
+  for (let i = 0; i < y; i++) {
+    let a;
+    let b;
+    let string = '';
+
+    if (i % 2) {
+        a = ' ';
+        b = '#';
+    } else {
+        a = '#';
+        b = ' ';
+    }
+
+    for (let j = 0; j < x; j++) {
+      if (j % 2) {
+        string += a;
+      } else {
+        string += b;
+      }
+    }
+
+    console.log(string);
+  }
+}
+    console.log(createChess(8, 8));
+    </script>
+</body>
+</html>

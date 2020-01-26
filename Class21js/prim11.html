@@ -7,11 +7,12 @@
     <title>Document</title>
 </head>
 <body>
-  <!-- Создайте функцию, которая для чисел от 2 до 20 выводит в консоль все их делители. -->
-
+   <!-- Решите задачу 10 в общем виде: вместо 2 и 20 – аргументы x и y.
+   Создайте функцию, которая для чисел от x до y выводит в консоль все их делители. -->
+ 
     <script>
-        function div1(){
-          for(let i=2; i<21; i++) {
+        function div1(x, y){
+          for(let i=x; i<y; i++) {
               console.log('Working with ',i);
             for(let a=i; a>1 ; a--){
               if(i%a==0) { 
@@ -20,7 +21,7 @@
             }
           }
         }
-        div1();
+        console.log(div1(2, 15));
     </script>
 </body>
 </html>

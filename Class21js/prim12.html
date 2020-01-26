@@ -7,37 +7,36 @@
     <title>Document</title>
 </head>
 <body>
+    <!-- Создайте функцию с параметрами size (число) и unit (строка). 
+    В unit передаются единицы измерения информации («Кб», «Мб», «Гб»), 
+    в size – количество таких единиц. Функция возвращает количество байт в size. -->
+
     <input type="text" id="size">
-    <input type="radio" id="kb">Кб
-    <input type="radio" id="mb">Мб
-    <input type="radio" id="gb">Гб
+    <input type="text" id="kb">
     <input type="submit" onclick="fun12();">
     <script>
         function fun12() {
-            let size = document.getElementById('size').value;
-            let unit;
-            // if (unit = document.getElementById('kb').value) {
-            //     size = size * 1024;
-            // }
-            // else if (unit = document.getElementById('mb').value){
-            //     size = size * 1048576 ;
-            // }
-            
-            //     console.log(size);
-
-        switch (unit) {
-            case 1:
-                console.log('Lavel - Low, Label - Unsatisfactory, US equivalent - F');
-                break;
-            case 2:
-                console.log('Lavel - Low, Label - Unsatisfactory, US equivalent - F');
-                break;
-            case 3:
-                console.log('Lavel - Satisfactory, Label - Satisfactory, US equivalent - C');
-                break;
-            default:
+            let size = parseInt(document.getElementById('size').value);
+            let unit = document.getElementById('kb').value;
+            switch(unit) {
+                case("Kb"):
+                    size = size * 1024;
+                    console.log(size);
+                    break;
+                case("Mb"):
+                    size = size * 1024*1024;
+                    console.log(size);
+                    break;
+                case("Gb"):
+                    size = size * 1024*1024*1024;
+                    console.log(size);
+                    break;
+                default:
                 console.log("Ошибка");
+            }
+
         }
+     
     </script>
 </body>
 </html>

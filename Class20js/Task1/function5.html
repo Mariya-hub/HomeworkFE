@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Напишите функцию для решения квадратных уравнений. В качестве параметров она должна принимать 
+    коэффиценты a, b и c, возвращать – количество корней. Сами корни уравнения (или информацию о их отсутствии) 
+    функция должна выводить в консоль. -->
+
+    <script>
+        function fun5() {
+        let a = 4, b = 12, c = 3;
+        let d = Math.pow(b,2) - 4*a*c;
+        if (d>0){
+            let x1 = (-b - Math.sqrt(d))/(2*a);
+            let x2 = (-b + Math.sqrt(d))/(2*a);
+            console.log("d = " + d);
+            console.log("x1 = " + x1);
+            console.log("x2 = " + x2);
+        }
+        else {
+            return("Нет корней d<0");
+        }
+    }
+    console.log(fun5());
+
+    </script>
+</body>
+</html>
