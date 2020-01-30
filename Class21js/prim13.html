@@ -11,9 +11,29 @@
     <input type="text" id="kb">
     <input type="submit" onclick="fun13();">
     <script>
-        function fun13() {
-           
-        }
+        // Создайте функцию, которая ищет наибольший общий делитель двух чисел.
+
+       function issimplenumber(y){
+            for (let i=2; i<y; i++) {
+                if(y%i) return false;
+            }
+            return true;
+            }
+
+            function minnumber (x,y){
+                return(x<y)?x:y
+            }
+
+            function nod( x,y){
+                let max=1;
+                for (let i=2; i<minnumber(x,y);i++){
+                    if (issimplenumber(i)){
+                        if (!x%i&&!y%i)
+                        max=i;
+                    }
+                }
+            return max;
+            }
      
     </script>
 </body>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="a">
+    <input type="text" id="b">
+    <input type="text" id="c">
+    <input type="submit" onclick="fun3();">
+    <script>
+     
+        function fun3 () {
+            let a = document.getElementById('a').value;
+            let b = document.getElementById('b').value;
+            let c = document.getElementById('c').value;
+           let mas = [a,b,c];
+            if (a>b && a>c) {
+                let del = a/b;
+                console.log(del);
+                del = a/c;
+                console.log(del);
+            }  
+            if (b>a && b>c) {
+                let del = b/a;
+                console.log(del);
+                del = b/c;
+                console.log(del);
+            } 
+            if (c>a && c>b) {
+                let del = c/a;
+                console.log(del);
+                del = c/b;
+                console.log(del);
+            }  
+            console.log(mas);      
+        }
+    </script>
+</body>
+</html>
