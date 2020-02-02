@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+     <!-- Создайте функцию, которая проверяет, можно ли представить число в виде суммы квадратов двух целых однозначных чисел. -->
+    <script>     
+        function fn1(n) {
+          for (let a=1;a<10; a++){
+            for (let b=1; b<10; b++) {
+              if ((a*a)+(b*b)==n){
+                console.log ("сумма квадратов"+" "+a+" и "+b+" "+"равна "+ n)
+                return true;
+              }
+            }
+          }
+          return false;
+        }
+         let k=35;
+
+        console.log ((fn1(34))?"Сумма есть":"Суммы нет");
+    </script>
+</body>
+</html>

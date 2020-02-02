@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+         
+        let mas = [];  
+        for (let i=1; i<36; i++){
+            mas.push(i);
+        }
+        for (i=1; i<11; i++){
+           mas.shift();
+           mas.push(i);
+        }
+        let t=mas;
+        t = mas.splice(0,10);
+            
+            t.reverse();
+            console.log(t);
+            mas.splice(0,5);
+            for (i=5; i>0; i--){
+            
+            mas.unshift(Math.pow(2,i));
+            }
+            mas.fill(1, 5, 10);
+           
+            // let n = mas;
+            // n.slice(10, 14);
+           
+            // console.log(n.join(" "));
+
+            
+         console.log(mas);
+    </script>
+</body>
+</html>
