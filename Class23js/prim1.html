@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Создайте объект obj = {a: 1, b: 2, c: 3}. Выведите в консоль элемент с ключом 'c' двумя способами: через квадратные скобки и через точку. Затем выведите все свойства объекта через цикл for..in. -->
+
+    <script>
+        let obj = {a: 1, b: 2, c: 3};
+        // console.log(obj.c);
+        //console.log(obj["c"]);
+        for (let obj2 in obj) console.log(obj2 + ":" + obj[obj2]);
+
+    </script>
+</body>
+</html>
