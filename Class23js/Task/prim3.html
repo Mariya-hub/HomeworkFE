@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Создайте объект "Цилиндр" (свойства – радиус и высота). Добавьте в него метод, который считает объём цилиндра (используя this). -->
+
+    <script>
+       let cylinder = {
+        radius: 5,
+        height: 7
+
+       }
+       cylinder.fn3 = function() {
+           
+            console.log(this.radius*this.radius*this.height*Math.PI);
+        }
+        cylinder.fn3();
+    </script>
+</body>
+</html>

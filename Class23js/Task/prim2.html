@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Напишите функцию, которая получает в качестве аргументов объект и строку и проверяет, есть ли в этом объекте свойство с именем, равным этой строке. -->
+
+
+
+
+    <script>
+       let recept = {
+           name: "soup",
+           portion: 2,
+           ingr: {
+               egg: 2,
+               potatoe: 4,
+               water: 400
+           }
+       }
+       function fn2(rep) {
+        console.log(recept.name + " " + recept.ingr.egg/2 + " " + recept.ingr.potatoe/2 + " " + recept.ingr.water/2);
+        
+       }
+       console.log(fn2(recept));
+    </script>
+</body>
+</html>

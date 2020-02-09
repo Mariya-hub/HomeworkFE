@@ -35,11 +35,11 @@
             name: "Брест",
             population: 350616
         }
-       let array = [city1, city2, city3, city4, city5, city6];
-       function fn() {
-           return array;
+       
+       city1.getInfo = function () {
+           console.log("Город " + city1.name + ", " + "население " + city1.population);
        }
-       console.log(fn());
+       city1.getInfo();
         
 
     </script>
