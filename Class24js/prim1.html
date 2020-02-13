@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Напишите функцию, которая создаёт и возвращает массив длиной 20 элементов, каждый из которых – случайное число от 1 до 50. -->
+
+    <script>
+        function fn1() {
+            let mas = [];
+            for (let i=1;i<21; i++ ){
+                let b = (Math.random() * (50 - 1) + 1);
+                mas.push(b.toFixed());
+                
+            
+                
+            }
+           console.log(mas);
+        }
+        fn1();
+    </script>
+</body>
+</html>

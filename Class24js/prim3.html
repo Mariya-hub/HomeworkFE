@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Напишите функцию, которая проверяет, начинается ли строка на https:// и заканчивается 
+    ли она на .html. Если оба условия выполнены, функция возвращает true, в ином случае – false. -->
+
+    <script>
+        function fn2() {
+            let n = "https://blablabla.html";
+                let g = n.length-5;
+                if ((n.slice(0,8)=="https://") && (n.slice(g)==".html")) {
+                    console.log("true");
+                }
+                else
+                console.log("false");
+                
+        }
+           
+     
+        fn2();
+    </script>
+</body>
+</html>

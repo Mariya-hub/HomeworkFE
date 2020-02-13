@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Перепишите функцию из задачи 1, так, чтобы она принимала три аргумента: длину нужного массива, минимальное и максимальное значения элементов. -->
+
+    <script>
+        function fn1(l, min, max) {
+            let mas = [];
+            for (let i=1;i<l; i++ ){
+                let b = (Math.random() * (max - min) + min);
+                mas.push(b.toFixed());
+                
+            
+                
+            }
+           console.log(mas);
+        }
+        fn1(25, 40, 78);
+    </script>
+</body>
+</html>
