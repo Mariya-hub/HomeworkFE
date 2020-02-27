@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        function genRandomArray(arraySize, maxRandom) {
+            let a = [];
+            for (let i = 0; i < arraySize; i++) {
+                a[i] = Math.round(Math.random() * maxRandom);
+                // console.log(i, a[i]);
+            }
+            return a;
+        }
+
+        let myArray = genRandomArray(10, 10);
+        console.log(myArray);
+
+        let myArray2 = genRandomArray(5, 50);
+        console.log(myArray2);
+
+        // for (let i = 0; i< myArray.length; i++) {
+        //     console.log(i, myArray[i]);
+        // }
+
+        // for (let i = 0; i< myArray2.length; i++) {
+        //     console.log(i, myArray2[i]);
+        // }
+
+        // function consoleArrayLogger(elem, index) {
+        //     console.log(index, elem, elem*elem)
+        // }
+
+        // myArray.forEach(consoleArrayLogger);
+
+
+        // myArray2.forEach(consoleArrayLogger);
+
+                        // function sum (a,b) {
+                        //     return a+b;
+                        // }
+                    
+                        // let c = sum(10,20);
+                        // console.log(c);
+
+        function newMathLogic(arr) {
+            let res = [];
+            for (let i = 0; i < arr.length; i++) {
+                let condition = 
+                res[i] = {
+                    initial: arr[i],
+                    index: i,
+                    sqare : arr[i]*arr[i],
+                    sqare_root : Math.sqrt(arr[i]),
+                    floor: Math.round(Math.sqrt(arr[i])) === Math.floor(Math.sqrt(arr[i])),
+                    ceil:Math.round(Math.sqrt(arr[i])) === Math.ceil(Math.sqrt(arr[i]))
+                };
+            }
+            return res;
+        }
+
+        console.log(newMathLogic(myArray));
+        console.log(newMathLogic(myArray2));
+        
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function fn(n) {
+            if ((n % 100 >= 5 && n % 100 <= 19) || (n % 10 == 0) || (n % 10 >=5 && n% 10 <=9))
+                return (n + " " + "карандашей");
+            if (n % 10 == 1)
+                return (n + " " + "карандаш");
+            if (n % 10 > 1 && n % 10 <= 4)
+                return (n + " " + "карандаша");
+            
+
+        }
+        function name() {
+            for (let i = 0; i < 100; i++)
+                console.log(fn(i));
+        }
+        name();
+        for (let i = 0; i < 100; i++)
+                console.log(fn(Math.floor(Math.random()*10000)));
+
+
+    </script>
+</body>
+</html>
