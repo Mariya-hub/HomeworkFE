@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<!-- 1. Сделайте так, чтобы по клику на первую кнопку на экран выводилось число 1, по клику на вторую - число 2, а по клику на третью - число 3. -->
+                <!-- <input id="button1" type="submit">
+                <input id="button2" type="submit">
+                <input id="button3" type="submit">
+                    <script>
+                        let a = document.querySelector('#button1');
+                        a.addEventListener('click', function() {
+                            alert('1')
+                        })
+                        let b = document.querySelector('#button2');
+                        b.addEventListener('click', function() {
+                            alert('2');
+                        })
+                        let c = document.querySelector('#button3');
+                        c.addEventListener('click', function() {
+                            alert('3');
+                        })
+                    </script> -->
+
+<!-- 2. Дана кнопка. По двойному клику по ней выведите на экран какое-нибудь сообщение. -->
+                <!-- <input id="input1" type="submit">
+                <script>
+                    let a = document.querySelector('#input1');
+                    a.addEventListener('dblclick', function() {
+                        alert('this is input 1 dbl');
+                    })
+                </script> -->
+<!-- 3. Дана кнопка. По наведению на нее выведите на экран какое-нибудь сообщение. -->
+                <!-- <input id="input2" type="submit">
+                <script>
+                    let b = document.querySelector('#input2');
+                    b.addEventListener('mouseover', function() {
+                        alert('this is input 2 mouseover');
+                    })
+                </script> -->
+<!-- 4. Дана кнопка. По уходу курсора с нее выведите на экран какое-нибудь сообщение. -->
+                <!-- <input id="input3" type="submit">
+                <script>
+                    let c = document.querySelector('#input3');
+                    c.addEventListener('mouseout', function() {
+                        alert('this is input 3 mouseout');
+                    })
+                </script> -->
+<!-- 5. Дана кнопка. По клику на нее выведите число 1, а по наведению - число 2.  по двойному клику не работает!!!!! -->
+                <!-- <input id="input4" type="submit">
+                <script>
+                    let d = document.querySelector('#input4');
+                    d.addEventListener('mouseover', function() {
+                        alert('2');
+                    });
+                    d.addEventListener('click', function() {
+                        alert('1');
+                    });
+                </script> -->
+<!-- 6. Сделайте так, чтобы по клику на первую кнопку выполнилась функция func1, а по клику на вторую - функция func2. -->
+                <!-- <input id="button1" type="submit" value="button1">
+                <input id="button2" type="submit" value="button2">
+                <script>
+                    function func1() {
+                	alert(1);
+                    }
+                    function func2() {
+                    	alert(2);
+                    }
+                    let q = document.querySelector('#button1');
+                    q.addEventListener('click', func1);
+                    let w = document.querySelector('#button2');
+                    w.addEventListener('click', func2);
+                </script> -->
+<!-- 7. Привяжите функцию ко всем 5-ти абзацам. -->
+                <!-- <p id="elem1">text</p>
+                <p id="elem2">text</p>
+                <p id="elem3">text</p>
+                <p id="elem4">text</p>
+                <p id="elem5">text</p>
+                <script>
+                    function func() {
+                    	alert('message');
+                    }
+                    let z = document.querySelector('#elem1');
+                    z.addEventListener('click', func);
+                    let x = document.querySelector('#elem2');
+                    x.addEventListener('click', func);
+                    let c = document.querySelector('#elem3');
+                    c.addEventListener('click', func);
+                    let v = document.querySelector('#elem4');
+                    v.addEventListener('click', func);
+                    let b = document.querySelector('#elem5');
+                    b.addEventListener('click', func);
+                </script> -->
+<!-- 8. Привяжите все эти функции к нашему абзацу. -->
+                <!-- <p id="elem">text</p>
+                <script>
+                    function func1() {
+                    	alert('1');
+                    }
+
+                    function func2() {
+                    	alert('2');
+                    }
+
+                    function func3() {
+                    	alert('3');
+                    }
+                    let a = document.querySelector('#elem');
+                    a.addEventListener('click', func1);
+                    a.addEventListener('click', func2);
+                    a.addEventListener('click', func3);
+                </script> -->
+<!-- 9. Дана кнопка. Привяжите к ней три анонимных обработчика двойного клика по ней. Пусть первый обработчик выводит число 1, второй обработчик - число 2, а третий - число 3. -->
+                <!-- <input id='elem' type="submit">
+                <script>
+                    let s = document.querySelector('#elem');
+                    s.addEventListener('click', function() {
+                        alert('1');
+                    })
+                    s.addEventListener('click', function() {
+                        alert('2');
+                    })
+                    s.addEventListener('click', function() {
+                        alert('3');
+                    })
+                </script> -->
+<!-- 10. Даны два абзаца, содержащие своим текстом какие-то числа, и кнопка. По нажатию на кнопку выведите на экран сумму хранящихся чисел. -->
+                                <!-- <p id="elem">123</p>
+                                <p id="elem1">258</p>
+                                <input id="button" type="submit">
+                                <script>
+                                    let a = document.querySelector('#elem');
+                                    let c = document.querySelector('#elem1');
+                                    let b = document.querySelector('#button');
+                                    b.addEventListener('click', function() {
+                                        // alert(Number(a).innerHTML+Number(c).innerHTML);
+                                        alert(a.innerHTML+c.innerHTML);
+                                    })
+                                </script> -->
+<!-- 11. Даны два абзаца и две кнопки. Пусть нажатие на первую кнопку выводит текст первого абзаца, а нажатие на вторую кнопку - текст второго абзаца. -->
+                    <!-- <p id="elem1">text1</p>
+                    <p id="elem2">text2</p> 
+                    <input id="button1" type="submit">
+                    <input id="button2" type="submit">
+                    <script>
+                        let a = document.querySelector('#button1');
+                        let v = document.querySelector('#elem2');
+                        a.addEventListener('click', function () {
+                            alert(v.innerHTML);
+                        })
+                        let b = document.querySelector('#button2');
+                        let n = document.querySelector('#elem1');
+                        b.addEventListener('click', function() {
+                            alert(n.innerHTML);
+                        })
+                    </script> -->
+<!-- 12. Дан абзац и две кнопки. По нажатию на первую кнопку запишите в абзац слово 'привет', а по нажатию на вторую кнопку - слово 'пока'. -->
+                    <!-- <p id="elem"></p>
+                    <input id="button1" type="submit">
+                    <input id="button2" type="submit">
+                    <script>
+                        let a = document.querySelector('#button1');
+                        let b = document.querySelector('#elem');
+                        a.addEventListener('click', function() {
+                            b.innerHTML = "Привет!";
+                        })
+                        let c = document.querySelector('#button2');
+                        c.addEventListener('click', function() {
+                            b.innerHTML = "Пока";
+                        })
+                    </script> -->
+<!-- 13. Дан абзац и кнопка. В абзаце записано какое-то число. По нажатию на кнопку возведите значение абзаца в квадрат и запишите его обратно. -->
+                    <!-- <p id="elem">2</p>
+                    <input id="button" type="submit">
+                    <script>
+                        let a = document.querySelector('#button');
+                        let b = document.querySelector('#elem');
+                        a.addEventListener('click', function() {
+                            b.innerHTML = b.innerHTML*2;
+                        })
+                    </script> -->
+<!-- 14. Дан абзац и кнопка. По нажатию на кнопку запишите в абзац текст '<i>hello</i>'. -->
+                    <!-- <p id="elem"></p>
+                    <input id="button" type="submit">
+                    <script>
+                        let q = document.querySelector('#button');
+                        let w = document.querySelector('#elem');
+                        q.addEventListener('click', function() {
+                            w.innerHTML = '<i>hello</i>';
+                        })
+                    </script> -->
+<!-- 15. Дан инпут. Дана также кнопка. По нажатию на кнопку выведите на экран содержимое атрибута type указанного выше инпута. -->
+                    <!-- <input id="elem" type="email">
+                    <button id="btn">Кнопка</button>
+                    <script>
+                        let a = document.querySelector('#btn');
+                        let b = document.querySelector('#elem');
+                        a.addEventListener('click', function() {
+                            alert(b.type);
+                        })
+                    </script> -->
+<!-- 16. Пусть у вас есть картинка. Разместите ее на странице в помощью тега img. 
+Пусть даны также кнопка и абзац. Сделайте так, чтобы по клику на кнопку в абзац записался путь к картинки из ее атрибута src. -->
+                    <!-- <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRUyU6-eJJIxAmv5NWvU06U9gEJT7_AirR08azaxFksG11UKq7f" alt="" id="image">
+                    <input type="submit" id="inp">
+                    <p id="p"></p>
+                    <script>
+                        let a = document.querySelector('#image');
+                        let b = document.querySelector('#inp');
+                        let c = document.querySelector('#p');
+                        b.addEventListener('click', function() {
+                            c.innerHTML = a.src;
+                        })
+                    </script> -->
+<!-- 17. Дана картинка в теге img и кнопка. Пусть в атрибуте width задана некоторая ширина. Сделайте кнопку, по нажатию на которую ширина картинки будет увеличиваться в 2 раза. -->
+                    <!-- <input type="submit" id="inp">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRUyU6-eJJIxAmv5NWvU06U9gEJT7_AirR08azaxFksG11UKq7f" alt="" id="image" width="100px">
+                    <script>
+                        let a = document.querySelector('#image');
+                        let b = document.querySelector('#inp');
+                        b.addEventListener('click', function() {
+                            a.width = a.width*2;
+                        })
+                    </script> -->
+<!-- 18. Пусть у вас есть две картинки. Сделайте на странице тег img и две кнопки.  -->
+<!-- По нажатию на первую кнопку запишите в атрибут src путь к первой картинке, а по нажатию на вторую - путь ко второй картинке. -->
+                    <!-- <img src="" alt="" id="image">
+                    <input type="submit" id="inp1">
+                    <input type="submit" id="inp2">
+                    <script>
+                        let a = document.querySelector('#inp1');
+                        let b = document.querySelector('#inp2');
+                        let c = document.querySelector('#image');
+                        a.addEventListener('click', function() {
+                            c.src = 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcToBDDzXSevIlt-SAbh5NtLTi1CX8qrq8g86DW6r6xfDil3txXF';
+                        });
+                        b.addEventListener('click', function() {
+                            c.src = 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRUyU6-eJJIxAmv5NWvU06U9gEJT7_AirR08azaxFksG11UKq7f';
+                        })
+                    </script> -->
+</body>
+</html>

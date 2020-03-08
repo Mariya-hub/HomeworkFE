@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body> 
+    <!-- Выведите координаты мыши относительно блока в момент движения курсора мыши внутри блока. Координаты выводить под блоком. -->
+    <div id="block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui inventore, expedita, <br>
+        illo nisi praesentium consequatur est alias in modi enim consequuntur repudiandae vitae, <br>
+        deleniti dignissimos quia aliquid. Numquam, asperiores error.Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui inventore, expedita, <br>
+        illo nisi praesentium consequatur est alias in modi enim consequuntur repudiandae vitae, <br>
+        deleniti dignissimos quia aliquid. Numquam, asperiores error. Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui inventore, expedita, <br>
+        illo nisi praesentium consequatur est alias in modi enim consequuntur repudiandae vitae, <br>
+        deleniti dignissimos quia aliquid. Numquam, asperiores error. Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui inventore, expedita, <br>
+        illo nisi praesentium consequatur est alias in modi enim consequuntur repudiandae vitae, <br>
+        deleniti dignissimos quia aliquid. Numquam, asperiores error.  </div>
+        <p id="p"></p>
+        <script>
+            let a = document.querySelector('#block');
+            let b = document.querySelector('#p');
+            a.addEventListener('mousemove', function(event) {
+                b.innerHTML = "X: " + event.clientX  + " Y: " + event.clientY;
+            })
+        </script>
+</body>
+</html>
