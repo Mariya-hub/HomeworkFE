@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body> 
+    <!-- Создайте форму с полем для ввода и двумя кнопками, сделайте так, чтобы по нажатию на кнопку disable, поле становилось неактивным, в случае с enable - наоборот -->
+    <form action="">
+    <input type="text" id="txt">
+    <input type="submit" id="ipt1" value="disable">
+    <input type="submit" id="ipt2" value="enable">
+</form>
+    <script>
+       let t = document.getElementById('txt');
+       let idis = document.getElementById('ipt1');
+       let ienab = document.getElementById('ipt2');
+    //    idis.addEventListener('click', function fn() {
+    //        t = "disabled";
+    //    })
+    //    ienab.removeEventListener('click', fn)
+    function disInput() {
+        document.form.t.disabled=true;
+        }
+    </script>
+       
+       
+</body>
+</html>

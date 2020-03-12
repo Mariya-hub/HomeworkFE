@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body> 
+    <!-- Создайте блок div, в качестве изображения фона установите ему изображение закрытой папки. 
+        Добавьте событие, которое выполняется при двойном клике на блоке и заменяет фон блока на изображение открытой папки -->
+
+     </div>   
+        <script>
+            document.body.innerHTML = '<div id="papka" style="background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR1ojEF_9cyHXg-J0Ki6pwzZXTDjtOhnTdbQ79S1Zz-KUl3tCcP); height: 200px; width: 200px;"></div>'
+            let a = document.getElementById('papka');
+            a.addEventListener('dblclick', function() {
+               a.style.backgroundImage = "url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRk-JgajiqKKGUTaUYjXLELNSfT8qHQi11ehPGkWeR80CRVdZPc)";
+            });
+       
+        </script>
+   
+</body>
+</html>

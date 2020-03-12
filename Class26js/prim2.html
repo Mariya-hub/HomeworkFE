@@ -6,11 +6,13 @@
     <title>Document</title>
 </head>
 <body>
-    <!-- Дан элемент #elem. Добавьте ему класс "www". -->
+    <!-- Дан элемент #elem. Проверьте наличие у него класса "www", если есть - удалите класс -->
+
     <p id="elem"></p>
     <script>
         let a = document.getElementById('elem');
         a.className = "www";
+        a.hasAttribute('class(name=""www"")');
     </script>
 </body>
 </html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            border: solid 2px rgb(62, 168, 13);
+            background-color: rgb(180, 255, 165);
+            width: 30px;
+            height: 30px;
+        }
+    </style>
+</head>
+<body> 
+    <!-- Добавьте в документ 300-400 блоков div квадратной формы с размерами сторон 30px, и цветом фона. 
+    Добавление элементов выполните с помощью цикла. Добавьте событие при наведении мыши, которое будет 
+    скруглять данные блоки с помощью border-radius до круга. Для замедления эффекта скругления в CSS можно 
+    добавить transition. -->
+        <p id="out"></p>
+        <script>
+            let out = document.getElementById("out");
+            let el = document.createElement("div");
+     
+            for (let i = 0; i < 300; ++i) {
+                el = out.appendChild(el.cloneNode(true));
+     
+                el.onmouseenter = e => {
+                    e.target.style = "border-radius: 50%;";
+                };
+                el.onmouseleave = e => {
+                    e.target.style = "";
+                }
+            }
+        </script>
+</body>
+</html>

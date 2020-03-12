@@ -6,13 +6,17 @@
     <title>Document</title>
 </head>
 <body> 
-    <!-- Сделайте так, чтобы по нажатию на кнопку выводился alert -->
+    <!-- Создайте кнопку с произвольным текстом, сделайте так, чтобы по нажатию текст изменялся на button -->
+
     <input type="submit" id="ipt">
+    <p id="p">Произвольный текст</p>
     <script>
         let i = document.getElementById('ipt');
+        let p = document.getElementById('p');
         i.addEventListener('click', function() {
-            alert('Alert!');
+            p.innerHTML = "<button>Произвольный текст</button>";
         })
+       
     </script>
        
        
